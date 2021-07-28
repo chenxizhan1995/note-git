@@ -11,9 +11,29 @@ git 是一个开源、免费的分布式版本控制系统。
 - VCS的分类：
   - 集中式：CVS、SVN
   - 分布式：Git
+# 02. Git 简史
+Linux 做的。
+# 03. 安装过程
+# 04. Git 结构
+工作区、暂存区、本地仓库
 
-# 03
+git add, git commit
+
+# 05. 代码托管
+本地库、远程库
+
+公司内部协作
+git push、git clone，git pull
+
+跨公司协作
+pull request
+
+内网：gitlab
+外网：github，gitee
+
+# 09 git 常用命令 git log,2
 对 git reflog 的说明有误。
 
 视频说：“表示回退几步”，这样说至少是不准确的。reflog 是 HEAD 的变更记录，不代表回退记录。
 另外，reflog 的数据不是持久数据，提交、推送、下载仓库都没有这个数据。
+git reflog expire --expire=now --all --rewrite 命令还能清空 reflog。
